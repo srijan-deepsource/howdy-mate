@@ -1,10 +1,10 @@
 """Greet the world."""
-from . import consts as constant
+from . import info
 
 
 def greet_me():
     """Print a greeting."""
-    print(f"Howdy, {constant.GREET_NAME}!")
+    print(f"Howdy, {info.GREET_NAME}!")
 
 
 if __name__ == '__main__':

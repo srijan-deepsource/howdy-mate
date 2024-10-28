@@ -1,4 +1,4 @@
-from .consts import *
-from .consts import GREET_NAME
+from .info import *
+from .info import GREET_NAME
 
-__all__ = ['consts', 'GREET_NAME']
+__all__ = ['info', 'GREET_NAME']
